@@ -1,0 +1,100 @@
+body
+{
+  margin:0;
+  background:#FFFFFF;
+  font-size:12pt;
+  color:#0066FF;
+  font-family:微軟正黑體;
+}
+#headArea
+{
+  margin:0;
+  width:1000px;
+  overflow:hidden;
+}
+#head-L
+{
+  width:10px;
+  float:left;
+  padding:10px 0px 0px 20px;
+}
+/*按鈕列*/
+#headBtnArea
+{
+  width:100%;
+  background:#727272;
+  display:table;
+}
+#headBtn
+{
+  margin:0;
+  width:1000px;
+}
+#headBtn li
+{
+  float:left;
+  padding:15px 0px;
+}
+a.btn1
+{
+  padding:15px 30px;
+  background:#727272;
+  color:#FFFFFF;
+  border-right:1px #000000 solid;
+}
+a:hover.btn1
+{
+  background:#000000;
+  color:FFFF00;
+}
+#Line
+{
+  border-left:1px #000000 solid;
+}
+ul,li
+{
+  margin:0;padding:0;
+  list-style:none;
+  position:relative;
+}
+a
+{
+  text-decoration:none;
+}
+/*子選單*/
+.headBtn-items
+{
+  z-index:100;
+  position:absolute;
+  top:auto;
+  background:#000000;
+  width:200px;
+  padding:10px;
+  display:none;
+}
+.headBtn-items a
+{
+  display:block;
+  padding:10px;
+  background:#000000;
+  color:#FFFFFF;
+}
+.headBtn-items a:hover
+{
+  background:#E0E0E0;
+  color:#000000;
+}
+
+/*增加子選單移除class*/
+.headbtnBg
+{
+  background:#000000;
+}
+.headbtnTxt1
+{
+  color:#FFFFFF;
+}
+.headbtnTxt2
+{
+  color:#FFFF00;
+}
