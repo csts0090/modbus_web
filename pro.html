@@ -8,6 +8,16 @@
     <link rel="stylesheet" href="css-js/layout.css">
     <script src="css-js/jquery-1.11.0.min.js"></script>
     <script src="css-js/layout.js"></script>
+    <script src="css-js/sch.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script>
+    $(function() {
+    $(".datepicker").datepicker();
+    });
+    </script>
   </head>
   <body>
     <div id="headArea">
@@ -45,30 +55,47 @@
           </li>
       </div>
     </div>
+    <div id="body">
+    <h2>排程設定</h2>
+              <hr /> 
+    <form action="pro.php" method="post">
+        <label for="schname">schedule名稱</label><br/>
+        <input id="schname" name="schname" type="text" size="12"/></br>
+    <table id="sch_table" width="580">
+      <tr>
+        <td width="150" class="td" >裝置名稱</td>
+        <td width="150" class="td" >資料位址</td>
+        <td width="150" class="td" >開始時間</td>
+        <td width="150" class="td" >結束時間</td>
+        <td width="150" class="td" >擷取週期(秒)</td>
+      </tr>
+      <tr>
+        <td>
+          <input name="sch1[]" type="text" size="12"/>
+        </td>
+        <td>
+          <input name="sch2[]" type="text" size="12"/>
 
-    <div id="content">
+        </td>
+        <td>
+          <input class="datepicker1" name="sch3[]" type="text" size="12" data-field="datetime" />
+        </td>
+        <td>
+          <input class="datepicker1" name="sch4[]" type="text" size="12" data-field="datetime" />
+        </td>
+        <td>
+          <input name="sch5[]" type="text" size="12"/>
+        </td>
+      </tr>
+    <!--<div class="dtBox"></div>-->
+    </table>
+    <input type="button" value="增加" onclick="add_new_data()">
+    <input type="button" value="移除" onclick="remove_data()"><br /><br />
+    <input type="submit" value="提交"></br></br>
+    </form>
+
     </div>
+    	<link rel="stylesheet" type="text/css" href="css-js/DateTimePicker.css" />
+	<script type="text/javascript" src="css-js/DateTimePicker.js"></script>
   </body>
-  <script type='text/javascript'>
-	document.getElementById('print_sch').onclick = function(){
-		if (window.XMLHttpRequest) {
-                       // code for IE7+, Firefox, Chrome, Opera, Safari
-		       xmlhttp = new XMLHttpRequest();
-		       } else {
-		       		// code for IE6, IE5
-		       		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-		              }
-		                xmlhttp.onreadystatechange = function() {
-		                	if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-	                          		document.getElementById("content").innerHTML = xmlhttp.responseText;
-				  	}
-	       			 }
-			                     xmlhttp.open("GET","res.php?",true);
-			                     xmlhttp.send();
-			                      //xmlhttp.open("POST","****.php",true);
-			                      //xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-			                      //xmlhttp.send("q="+str);
-
-	}
-  </script>
 </html>

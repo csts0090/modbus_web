@@ -45,7 +45,7 @@ a.btn1
 a:hover.btn1
 {
   background:#000000;
-  color:FFFF00;
+  color:#FFFF00;
 }
 #Line
 {
@@ -98,3 +98,16 @@ a
 {
   color:#FFFF00;
 }
+
+table{
+        width: 50%;
+	border-collapse: collapse;
+     }
+         
+table, td, th {
+	margin:10px 0px 10px 0px; 
+	border: 1px solid black;
+	padding: 5px;
+}
+	      
+th {text-align: left;}

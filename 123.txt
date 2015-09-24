@@ -1,0 +1,6 @@
+Opening /dev/ttyM0 at 9600 bauds (N, 8, 1)
+[0A][03][15][21][00][01][D1][77]
+Waiting for a confirmation...
+<0A><03><02><00><0E><9C><41>
+HOLDING REGISTERS:
+[0]=14

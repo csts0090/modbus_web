@@ -46,29 +46,38 @@
       </div>
     </div>
 
-    <div id="content">
+
+    <div id="body" style= margin:30px;>
+      <form method="post" action="data_add.php">
+      <table>
+        <label for="ip">裝置ip:</label>
+        <input type="text" id="ip" name="ip" /><br /><br/>
+        <label for="station_no">裝置代號:</label>
+        <input type="text" id="station_no" name="station_no" /><br /><br/>
+        <label for="name">裝置名字:</label>
+        <input type="text" id="name" name="name" /><br /><br/>
+        <input type="submit" name="Submit" value="提交" /><a href="data_add1.php">目前擁有裝置</a><br /><br/>
+	</table>
+      </form>
+    </div>
+
+
+    <div id="body" style= margin:30px;>
+      <form method="post" action="data_add2.php">
+      <table>
+        <label for="station_no">裝置代號:</label>
+        <input type="text" id="station_no" name="station_no" /><br /><br/>
+        <label for="address">暫存器位址:</label>
+        <input type="text" id="address" name="address" /><br /><br/>
+        <label for="identifilers">資料說明:</label>
+        <input type="text" id="identifilers" name="identifilers" /><br /><br/>
+        <label for="comment">資料補充:</label>
+        <input type="text" id="comment" name="comment" /><br /><br/>
+        <label for="data_type">資料類型:</label>
+        <input type="text" id="data_type" name="data_type" /><br /><br/>
+        <input type="submit" name="Submit" value="提交" /><a href="data_add3.php">目前擁有裝置資料</a><br /><br/>
+	</table>
+      </form>
     </div>
   </body>
-  <script type='text/javascript'>
-	document.getElementById('print_sch').onclick = function(){
-		if (window.XMLHttpRequest) {
-                       // code for IE7+, Firefox, Chrome, Opera, Safari
-		       xmlhttp = new XMLHttpRequest();
-		       } else {
-		       		// code for IE6, IE5
-		       		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-		              }
-		                xmlhttp.onreadystatechange = function() {
-		                	if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-	                          		document.getElementById("content").innerHTML = xmlhttp.responseText;
-				  	}
-	       			 }
-			                     xmlhttp.open("GET","res.php?",true);
-			                     xmlhttp.send();
-			                      //xmlhttp.open("POST","****.php",true);
-			                      //xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-			                      //xmlhttp.send("q="+str);
-
-	}
-  </script>
 </html>

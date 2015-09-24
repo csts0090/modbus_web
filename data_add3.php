@@ -45,30 +45,44 @@
           </li>
       </div>
     </div>
+	<?php
 
-    <div id="content">
-    </div>
+
+
+          require("mysql.php");
+
+	  $sql= mysql_db_query ("$dbname", "select * from DeviceDataField")or die('Error querying database.');
+	  $tit=""; //將陣列變數設成空字串
+	  /* 取出欄位名稱，並串成陣列 */
+	  while ($row=mysql_fetch_field($sql)) {
+	  	$tit.=$row->name.",";
+	  }
+	  /* 分解欄位名稱陣列 */
+	  $titName=explode(",", $tit);
+	  echo "<form>"."<table>"."<tr>";
+	  for ($i=0; $i<4; $i++){
+	  	echo "<td width='150'>".$titName[$i]."</td>";
+	  }
+
+	  echo "</tr>"."</table>";
+	  echo "<table>"."<tr>";
+	  //echo "<br/>";
+	  /* 列出所有資料錄，並將資料錄內容轉成變數 */
+	  while ($rowDb=mysql_fetch_row($sql)) {
+	  	for ($i=0; $i<count($rowDb); $i++)
+		{
+		/* 將列的出欄位數值陣列，轉成變數 */
+		$titName2[$i]=$rowDb[$i];
+		echo "<td width='150'>".$titName2[$i]."<input id='btn' type=\"hidden\" name=\"sch[]\" value='$titName2[$i]'/></td>";
+		}
+		echo "</tr>";
+		}
+		echo "</table>";
+		echo "</form>";
+
+	  mysql_close($dbc);
+
+	?>
+
   </body>
-  <script type='text/javascript'>
-	document.getElementById('print_sch').onclick = function(){
-		if (window.XMLHttpRequest) {
-                       // code for IE7+, Firefox, Chrome, Opera, Safari
-		       xmlhttp = new XMLHttpRequest();
-		       } else {
-		       		// code for IE6, IE5
-		       		xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-		              }
-		                xmlhttp.onreadystatechange = function() {
-		                	if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-	                          		document.getElementById("content").innerHTML = xmlhttp.responseText;
-				  	}
-	       			 }
-			                     xmlhttp.open("GET","res.php?",true);
-			                     xmlhttp.send();
-			                      //xmlhttp.open("POST","****.php",true);
-			                      //xmlhttp.setRequestHeader("Content-type","application/x-www-form-urlencoded");
-			                      //xmlhttp.send("q="+str);
-
-	}
-  </script>
 </html>

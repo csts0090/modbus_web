@@ -1,0 +1,500 @@
+   17  vim monitor_up2.php 
+   18  vim monitor_up.php 
+   19  date
+   20  date
+   21  cd /var/www/demo/
+   22  ls
+   23  vim crontab.sh 
+   24  vim crontab.php 
+   25  vim crontab_local.php 
+   26  vim crontab.sh 
+   27  vim crontab_local.php 
+   28  la
+   29  cd
+   30  cd modbus/libmodbus-3.0.3
+   31  ls
+   32  cd src/
+   33  ls
+   34  ./client_serial 1521 10
+   35  cat history.txt 
+   36  setinterface /dev/ttyM0 1
+   37  ./client_serial 1521 10
+   38  cd /var/www/demo/
+   39  ls
+   40  ll -a
+   41  ll .*
+   42  clear
+   43  ll .*
+   44  ll -a
+   45  vim update_device.php 
+   46  rm .update_device.php.swp 
+   47  ll -a
+   48  vim sql_dump.php 
+   49  rm .sql_dump.php.swp 
+   50  ll -a
+   51  vim res.php 
+   52  rm .res.php.swp 
+   53  ll -a
+   54  vim res.php 
+   55  tail /var/log/mysql.log
+   56  tail /var/log/mysql/mysql.log
+   57  tail /var/log/mysql.err 
+   58  tail /var/log/mysql.log
+   59  tail /var/log/mysql.err 
+   60  /etc/init.d/mysql restart
+   61  /etc/init.d/mysql restart
+   62  tail /var/log/mysql.err 
+   63  cat test.txt 
+   64  cat temp_file.txt 
+   65  cat temp.txt 
+   66  ls
+   67  cat temp.txt 
+   68  cat temp_file.txt 
+   69  history 
+   70  vim res.php 
+   71  vim update_device.php \
+   72  vim update_device.php 
+   73  tail /var/log/mysql.err 
+   74  cd /var/run/mysqld/
+   75  ll
+   76  cd ..
+   77  cd /opt/
+   78  ls
+   79  ll
+   80  cd ..
+   81  cd /var/spool/
+   82  ls
+   83  cd cron/
+   84  ls
+   85  cat crontabs/
+   86  cd crontabs/
+   87  ls
+   88  cat www-data
+   89  ls
+   90  cat root 
+   91  ls
+   92  cat www-data
+   93  vim www-data
+   94  cd /var/www/demo/
+   95  vim crontab.php 
+   96  df
+   97  vim pro.html 
+   98  vim sql_query.php 
+   99  vim sql_query2.php 
+  100  ls
+  101  vim crontab.php 
+  102  vim sql_dump.php 
+  103  vim update_device.php 
+  104  vim pro.html 
+  105  vim pro.php
+  106  cat temp_file.txt 
+  107  vim pro.php
+  108  vim pro.php
+  109  vim res2.php 
+  110  vim upload.php 
+  111  vim download_local.php 
+  112  vim ftp.php 
+  113  top
+  114  df
+  115  ls
+  116  tail /var/log/apache2/access.log
+  117  tail /var/log/apache2/error.log
+  118  ll
+  119  rm sch 
+  120  ls
+  121  rm sch 
+  122  cat temp_file.txt 
+  123  vim temp_file.txt 
+  124  serial_read3 temp_file.txt 
+  125  date
+  126  top
+  127  cd sql
+  128  mysql -uroot -p Fri\ Jun\ 26\ 03\:31\:05\ UTC\ 2015.sql 
+  129  mysql -uroot -p < Fri\ Jun\ 26\ 03\:31\:05\ UTC\ 2015.sql 
+  130  date 071414042015
+  131  date
+  132  date
+  133  date
+  134  date
+  135  date
+  136  cd ..
+  137  ls
+  138  rm sch 
+  139  ll
+  140  vim res.php 
+  141  vim pro.php 
+  142  cd 
+  143  cd modbus/libmodbus-3.0.3/src/
+  144  ls
+  145  vim serial_read3.c 
+  146  cd /var/www/demo/
+  147  vim cancel2.php 
+  148  ls
+  149  rm sch
+  150  php3 cancel2.php 
+  151  php5 cancel2.php 
+  152  vim cancel2.php 
+  153  cd
+  154  cd modbus/libmodbus-3.0.3/src/
+  155  ls
+  156  vim serial_read3.c 
+  157  cd /var/www/demo/
+  158  ls
+  159  top
+  160  php5 cancel2.php 
+  161  cat cancel2.php 
+  162  php5 cancel2.php 
+  163  top
+  164  cat temp_file.txt 
+  165  cat test.txt 
+  166  ls
+  167  ls
+  168  cp update_device.php event.php
+  169  vim event.php 
+  170  cd /var/www/demo/
+  171  vim res.php 
+  172  vim crontab_local.php 
+  173  cat crontab.sh 
+  174  cd sql
+  175  ll
+  176  ll |more 
+  177  ll
+  178  rm 2015-0*
+  179  ll
+  180  cd ..
+  181  cd sql
+  182  ll
+  183  cd ..
+  184  vim sql_dump2.php 
+  185  vim sql_dump3.php 
+  186  ps
+  187  top
+  188  vim crontab_local.php 
+  189  vim crontab.php 
+  190  vim sql_dump2.php 
+  191  vim sql_dump3.php 
+  192  vim update_device2.php 
+  193  vim monitor.php 
+  194  vim monitor_up.php 
+  195  vim monitor_up2.php 
+  196  vim res.php 
+  197  ls
+  198  top 
+  199  top 
+  200  cd /var/www/demo/
+  201  vim res.php 
+  202  vim download_local.php 
+  203  vim res.php 
+  204  vim sql_dump.php 
+  205  tail /var/log/apache2/access.log
+  206  cat download3.php 
+  207  cat temp.txt 
+  208  cat temp.txt 
+  209  cat temp.txt 
+  210  cat temp.txt 
+  211  tail /var/log/mysql.err 
+  212  /etc/init.d/mysql restart
+  213  cd /var/lib/mysql/
+  214  ls
+  215  ll
+  216  cd SystemControl/
+  217  ls
+  218  top
+  219  ps -aux |grep mysql
+  220  ps -aux
+  221  ps -aux | grep mysql
+  222  ps -aux | grep mysql*
+  223  ps aux | grep mysql*
+  224  tail /var/log/mysql.err 
+  225  top
+  226  /etc/init.d/mysql restart
+  227  /etc/init.d/mysql restart
+  228  tail /var/log/mysql.err
+  229  /etc/init.d/mysql start
+  230  df -h
+  231  cd /var/log/
+  232  ls
+  233  ll
+  234  cd mysql
+  235  ls
+  236  ll
+  237  df
+  238  apt-get clean
+  239  apt-get autoclean
+  240  df
+  241  apt-get autoremove
+  242  df
+  243  cd /tmp/
+  244  ls
+  245  ll
+  246  cd /var/log
+  247  ll
+  248  cd mysql
+  249  ls
+  250  ll
+  251  cd mysql.log
+  252  du --max-depth=1 -x | sort -n
+  253  du --max-depth=1 -x
+  254  du --max-depth=1 
+  255  du -
+  256  df --max-depth=1 -x | sort -n
+  257  du
+  258  cd
+  259  df --max-depth=1 -x | sort -n
+  260  du --max-depth=1 -x | sort -n
+  261  cd ghliaw/
+  262  ls
+  263  ll
+  264  cd libmodbus-3.0.6
+  265  ll
+  266  cd ..
+  267  ls
+  268  cd ..
+  269  ls
+  270  cd ghliaw/
+  271  ls
+  272  ll
+  273  rm libmodbus-3.0.6.tar.gz 
+  274  ll
+  275  df
+  276  cd ..
+  277  ls
+  278  du --max-depth=1 -x | sort -n
+  279  ll
+  280  ll -a
+  281  pwd
+  282  df
+  283  du / --max-depth=1 -x | sort -n
+  284  cd /usr/
+  285  ls
+  286  du / --max-depth=1 -x | sort -n
+  287  du  --max-depth=1 -x | sort -n
+  288  cd games/
+  289  ls
+  290  ll
+  291  cd ..
+  292  cd ..
+  293  du /var --max-depth=1 -x | sort -n
+  294  du /usr --max-depth=1 -x | sort -n
+  295  cd /var/log/
+  296  du /var/log --max-depth=1 -x | sort -n
+  297  cd apache2/
+  298  ls
+  299  ll
+  300  cd ..
+  301  ls
+  302  ll
+  303  cd apache2/
+  304  ls
+  305  ll
+  306  df
+  307  df /var
+  308  /etc/init.d/mysql restart
+  309  /etc/init.d/mysql restart
+  310  mysql -uroot -p
+  311  cd /var/www/demo/
+  312  ls
+  313  date
+  314  vim update_device.php 
+  315  ll
+  316  vim event.php 
+  317  vim event.php 
+  318  cd 
+  319  cp -av /var/www/demo/ /media/TRANSCEND/.
+  320  ls
+  321  cd /var/www/demo/
+  322  vim res.php 
+  323  vim event.php 
+  324  vim event2.php 
+  325  vim event2.php 
+  326  clear
+  327  cp -av /var/www/demo/ /media/TRANSCEND/.
+  328  exit
+  329  ps
+  330  who
+  331  ifconfig 
+  332  cd /var/www/demo/
+  333  cat test2.txt 
+  334  vim /root/modbus/libmodbus-3.0.3/src/client_serial2.c 
+  335  vim monitor_up.php 
+  336  vim monitor_up.php 
+  337  vim pro.php 
+  338  vim update_device.php 
+  339  vim res.php 
+  340  vim res.php 
+  341  vim pro.html 
+  342  vim event.html 
+  343  vim event.php 
+  344  ls
+  345  cat res2.php 
+  346  cat res.php 
+  347  cat pro.php 
+  348  vim pro.php 
+  349  ls
+  350  ll
+  351  touch LOG
+  352  cat LOG 
+  353  chmod 777 LOG 
+  354  cat LOG 
+  355  cat LOG 
+  356  cat LOG 
+  357  cat LOG 
+  358  cat update_device.php 
+  359  cat monitor.php 
+  360  cat event.php 
+  361  cat event2.php 
+  362  cat pro.php 
+  363  vim res.php 
+  364  vim download.php 
+  365  vim update_device.php 
+  366  vim update_device2.php 
+  367  vim monitor.php 
+  368  vim monitor_up.php 
+  369  cat LOG 
+  370  cd /var/www/demo/
+  371  ls
+  372  vim update_device.php 
+  373  date
+  374  man date
+  375  ls
+  376  cat crontab.php 
+  377  cat crontab_local.php 
+  378  ls
+  379  cat sql_dump2.php 
+  380  date +%Y-%m-%d-%T
+  381  date +%Y-%m-%d-%T
+  382  cat sql_dump2.php 
+  383  cd 
+  384  cd modbus/
+  385  ls
+  386  cd libmodbus-3.0.3
+  387  ls
+  388  cd src/
+  389  ls
+  390  history |grep minicom
+  391  clear
+  392  cd /var/www/demo/
+  393  ls
+  394  vim update_device.php 
+  395  cat index.html 
+  396  vim sql_dump.php 
+  397  vim sql_dump.php 
+  398  vim monitor.php 
+  399  vim monitor_up.php 
+  400  vim monitor_up2.php 
+  401  vim monitor_up.php 
+  402  vim monitor_up2.php 
+  403  cp monitor_up2.php event2.php
+  404  vim event2.php 
+  405  vim event2.php 
+  406  vim event2.php 
+  407  vim event.php 
+  408  vim event.php 
+  409  vim event.php 
+  410  vim event2.php 
+  411  vim event2.php 
+  412  cat LOG 
+  413  vim LOG 
+  414  cat LOG 
+  415  vim event2.php 
+  416  vim LOG 
+  417  vim LOG 
+  418  dmesg 
+  419  mosquitto_pub -d -t hello/world -m "HI,testing."
+  420  mosquitto_pub -d -t test -m "HI,testing."
+  421  mosquitto_pub -d -t test -m "HI,testing."
+  422  mosquitto_pub -d -t yyy -m "HI,testing."
+  423  mosquitto_pub -d -t test -m "HI,testing."
+  424  mosquitto_pub -d -t test -m "HI,testing."
+  425  mosquitto_pub -d -t test -m "HI,testing."
+  426  cd /var/www/demo/
+  427  ls
+  428  vim event2.php 
+  429  vim event2.php 
+  430  mosquitto_pub -d -t test -m HI,testing.
+  431  mosquitto_pub -d -t test -m asfadsf
+  432  vim event2.php 
+  433  vim event2.php 
+  434  cat LOG
+  435  vim event2.php 
+  436  mosquitto_sub -d -t hello/word
+  437  mosquitto_sub -d -t hello/world
+  438  man mosquitto_pub 
+  439  man mosquitto_sub
+  440  history | grep mosquitto-1.4.2
+  441  cd mosquitto-1.4.2
+  442  ls
+  443  cd src/
+  444  ls
+  445  mosquitto
+  446  /etc/init.d/mosquitto start
+  447  ps -ef|grep mosq
+  448  mosquitto
+  449  mosquitto --help
+  450  man mosquitto
+  451  mosquitto
+  452  mosquitto -p 20222
+  453  mosquitto
+  454  man mosquitto
+  455  ls
+  456  cd ..
+  457  ls
+  458  cat config.h
+  459  cd src/
+  460  cat /etc/mosquitto/mosquitto.conf
+  461  vim /etc/mosquitto/mosquitto.conf
+  462  ls /etc/mosquitto/
+  463  ls -l /etc/mosquitto/
+  464  ls
+  465  mosquitto
+  466  man mosquitto
+  467  mosquitto -c /etc/mosquitto/passwd 
+  468  mosquitto 
+  469  mosquitto -v
+  470  mosquitto -d
+  471  mosquitto &
+  472  mosquitto -d
+  473  q
+  474  ps -ef|grep mosq
+  475  /etc/init.d/mosquitto stop
+  476  ps -ef|grep mosq
+  477  man mosquitto
+  478  ps
+  479  top
+  480  top
+  481  ps -ef|grep mosq
+  482  mosquitto 
+  483  mosquitto_sub -d -t hello/world
+  484  mosquitto_sub -d -t hello/world
+  485  ps -ef|grep mosq
+  486  mosquitto --list
+  487  mosquitto -c
+  488  man mosquitto
+  489  man mosquitto_sub
+  490  man mosquitto
+  491  mosquitto -
+  492  mosquitto_sub -d -t test
+  493  mosquitto_sub -d -t test
+  494  mosquitto_passwd 
+  495  mosquitto_passwd  -c /etc/mosquitto/passwd gh37143715
+  496  mosquitto_passwd  -c /etc/mosquitto/passwd csts0090
+  497  mosquitto_sub -d -t test
+  498  mosquitto_sub -d -t test
+  499  mosquitto_sub -d -t test
+  500  ls
+  501  cd modbus/
+  502  ls
+  503  cd libmodbus-3.0.3
+  504  ls
+  505  cd src/
+  506  ls
+  507  cd /var/www/demo/
+  508  vim sql_dump.php 
+  509  vim sql_dump2.php 
+  510  vim sql_dump3.php 
+  511  vim sql_dump2.php 
+  512  vim sql_dump3.php 
+  513  vim sql_dump2.php 
+  514  vim sql_dump2.php 
+  515  history 
+  516  history > HISTORY
